@@ -24,3 +24,15 @@ FROM db_employee e
         ON e.department_id=d.id
 WHERE d.department IN ('marketing', 'engineering');
 
+--03
+WITH cte AS
+( SELECT MAX(e.salary) AS inc , d.department AS dep
+FROM db_employee e
+    JOIN db_dept d
+        ON e.department_id=d.id
+GROUP BY d.department
+)
+SELECT 
+MAX(CASE WHEN cte.dep='marketing' THEN cte.inc END) - 
+MAX(CASE WHEN cte.dep='engineering' THEN cte.inc END) AS salary_difference
+FROM cte;
