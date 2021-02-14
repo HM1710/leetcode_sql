@@ -1,2 +1,2 @@
 # leetcode_sql
-Sharing SQL problems here as I solve them on Leetcode/Strata Scratch.
+Keeping track of #365daysOfSQL here. Solving one problem a day.
