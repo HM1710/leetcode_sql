@@ -2,4 +2,5 @@ Question: https://platform.stratascratch.com/technical/2083-union-and-union-all
 
 What is the difference between UNION and UNION ALL?
 
-Ans: UNION and UNION ALL are used to concatenate two or more result sets into one meaning we can write multiple SELECT statements and then combine them into a unified set. The key difference between them is that UNION only keeps unique records whereas, UNION ALL keeps all records including duplicates.
+Ans: UNION and UNION ALL are used to concatenate two or more result sets into one meaning we can write multiple SELECT statements and then combine them into a unified set. 
+The key difference between them is that UNION only keeps unique records whereas, UNION ALL keeps all records including duplicates.
