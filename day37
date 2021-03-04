@@ -1,0 +1,10 @@
+DELETE vs TRUNCATE
+
+DELETE is a DML statement whereas, TRUNCATE is a DDL statement.
+
+DELETE can be used to remove all records from a table or to remove records based on certain criteria specified in the WHERE clause.
+DELETE statement removes record one by one and also logs every entry into the log.
+
+TRUNCATE can be used to remove all records from a table.
+Truncate removes records by deallocating pages and it does not log each entry like DELETE (and because of this reason TRUNCATE is faster than DELETE statement).
+We cannot specify any criteria (WHERE clause) with the TRUNCATE statement.
