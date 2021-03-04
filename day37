@@ -1,3 +1,5 @@
+https://platform.stratascratch.com/technical/2084-delete-and-truncate
+
 DELETE vs TRUNCATE
 
 DELETE is a DML statement whereas, TRUNCATE is a DDL statement.
