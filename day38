@@ -1,0 +1,7 @@
+https://platform.stratascratch.com/technical/2242-left-join-and-right-join
+
+LEFT JOIN or LEFT OUTER JOIN returns all the rows of the table on the left side of the join and matching rows for the table on the right side of the join.
+The row(s) on the left side for which there is/are no matching row(s) on the right side, the result set will contain NULL.
+
+RIGHT JOIN or RIGHT OUTER JOIN returns all the rows of the table on the right side of the join and matching rows for the table on the left side of the join.
+The row(s) on the right side for which there is/are no matching row(s) on the left side, the result set will contain NULL.
